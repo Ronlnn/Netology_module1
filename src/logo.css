@@ -16,6 +16,9 @@ body{
     display: flex;
     margin-left: 20px;
     color: #8e8e8e;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .menu_item{
