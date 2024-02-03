@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+
+.menu{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;  /* Логотип выстраиваем по центру относительно нашему меню. Ведь align-items как раз про дочерние элементы */
+    padding: 20px;
+}
+.menu_logo{
+    width: 130px;
+
+}
+.menu_list{
+    display: flex;
+    margin-left: 20px;
+    color: #8e8e8e;
+}
+
+.menu_item{
+    padding: 10px;
+}
+
+.menu_link{
+    text-decoration: none;
+    color: inherit;
+}
+.menu_logo_link{
+    text-decoration: none;
+}
